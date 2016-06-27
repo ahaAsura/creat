@@ -1,0 +1,114 @@
+<div class="m-home">
+    <header>
+        <div class="head">
+            <ul>
+              <li>惠家有</li>
+              <li><input type="text" name="name" placeholder="        搜索商品"><span class="yo-ico">&#xe685;</span></li>
+              <li class="yo-ico">&#xe617;<p>扫一扫</p></li>
+            </ul>            
+        </div>
+    </header>
+<div spa-widget="scroll">
+  <div class="a_scroll">
+    <!-- 轮播部分 -->  
+    <div class="swiper-container banner"><!--banner-->
+		<div class="swiper-wrapper"><!--ul-->
+			<div class="swiper-slide"><!--li-->
+				<img src="/xiangmu/images/banner1.jpg">
+			</div>
+			<div class="swiper-slide">
+				<img src="/xiangmu/images/banner2.jpg">
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>									
+	</div>
+    <nav>
+        <ul>
+          <li><b class="yo-ico">&#xe688;</b><i>视频购物</i></li>
+          <li><b class="yo-ico">&#xe639;</b><i>都在买</i></li>
+          <li><b class="yo-ico">&#xe73f;</b><i>大牌精选</i></li>
+          <li><b class="yo-ico">&#xe6ae;</b><i>每日推荐</i></li>
+        </ul>
+        <ul>
+          <li><b class="yo-ico">&#xe88d;</b><i>全球好货</i></li>
+          <li><b class="yo-ico">&#xe60a;</b><i>TV清仓</i></li>
+          <li><b class="yo-ico">&#xe680;</b><i>饭好了</i></li>
+          <li><b class="yo-ico">&#xe601;</b><i>一元夺宝</i></li>
+        </ul>
+    </nav>
+    <aside>
+        <ul>
+          <li>防骗提示</li>
+          <li>请谨防钓鱼网站及诈骗电话</li>
+        </ul>
+    </aside>
+    <section>
+      <img src="/xiangmu/images/0c1.jpg"/>
+      <img src="/xiangmu/images/2_c1.jpg"/>
+    </section>
+    <div class="a_time">
+        <ul>
+          <li>
+            <p><img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r5_c2.png"/>限时抢购</p>
+            <p><img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r5_c6.png"/>距离结束</p>
+            <p>更多&gt;</p>
+          </li>
+          <li>
+            <p>
+              <img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r4_c2.png"/>
+              <span>新西兰</span>
+              <i>38</i>
+            </p>
+            <p>
+              <img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r4_c8.png"/>
+              <span>台湾</span>
+              <i>118</i>
+            </p>
+            <p>
+              <img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r4_c8.png"/>
+              <span>零度</span>
+              <i>399</i>
+            </p>
+          </li>
+        </ul>
+    </div>
+    <div class="a_time">
+        <ul>
+          <li>
+            <p><img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r5_c2.png"/>限时抢购</p>
+            <p><img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r5_c6.png"/>距离结束</p>
+            <p>更多&gt;</p>
+        </li>
+          <li>
+            <p>
+              <img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r4_c2.png"/>
+              <span>新西兰</span>
+              <i>38</i>
+            </p>
+            <p>
+              <img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r4_c8.png"/>
+              <span>台湾</span>
+              <i>118</i>
+            </p>
+            <p>
+              <img src="/xiangmu/images/Screenshot_2016-06-22-11-35-57_r4_c8.png"/>
+              <span>零度</span>
+              <i>399</i>
+            </p>
+          </li>
+        </ul>
+    </div>
+    <section ms-repeate-value = "livelist">
+      <img src="/xiangmu/images/0c1.jpg"/>
+      <img src="/xiangmu/images/2_c1.jpg"/>
+      <img src="/xiangmu/images/52_r4_c1.jpg"/>
+      <img ms-src = "value[0].imgsrc" src="/xiangmu/images/53_r2_c2.jpg"/>
+      <img ms-src = "value[1].imgsrc" src="/xiangmu/images/53_r4_c1.jpg"/>
+      <img ms-src = "value[2].imgsrc">
+      <img ms-src = "value[3].imgsrc">
+      
+      
+    </section>
+  </div><!-- a-Scroll的闭合DIV -->
+</div><!-- Scroll的闭合DIV -->
+</div><!-- m-home的闭合DIV -->

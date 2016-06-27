@@ -1,0 +1,15 @@
+<div class="shop_car">
+    <div class="shop_car_a">
+        <ul>
+            <li>购物车</li>
+            <li>编辑</li>
+        </ul>
+    </div>
+    <div class="shop_car_b">
+        <ul>
+          <li><img src="/xiangmu/images/9_r4_c4.jpg"></li>
+          <li>购物车是空的，快去选购吧</li>
+          <li><span>去逛逛</span></li>
+        </ul>
+    </div>
+</div>

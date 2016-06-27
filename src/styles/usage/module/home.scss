@@ -1,0 +1,307 @@
+.m-home{
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > *{
+        width: 100%;
+      }
+      //头部
+        header{
+          // opacity: 0;
+          .head{
+            background: #BB2857;
+            height: .39rem;
+            color: black;
+            ul{
+            @include flexbox();
+            height: 100%;
+            li{
+              height: 100%;
+              &:nth-child(1){
+                width: 100%;
+                line-height: .39rem;
+                font-size: .18rem;
+                color: #fff;
+                font-weight: 600;
+                text-align: center;
+                @include flex(1.2);
+                @include justify-content(center);
+                @include align-items(center);
+              }
+              &:nth-child(2){
+                width: 100%;
+                @include flex(4);
+                @include flexbox();
+                @include justify-content(center);
+                @include align-items(center);
+                input{
+                  border-radius: .06rem;
+                  width: 4rem;
+                  height: .26rem;
+                  border: 0;
+                  position: relative;
+                }
+                span{
+                  color:black;
+                  font-size: .3rem;
+                  position: absolute;
+                  left: .76rem;
+                  top: -.02rem;
+                }
+              }
+              &:nth-child(3){
+                line-height: .3rem;
+                color: #fff;
+                width: 100%;
+                text-align: center;
+                font-size: .2rem;
+                @include flex(1);
+                @include justify-content(center);
+                @include align-items(center);
+                position: relative;
+                p{
+                  position: absolute;
+                  top: .17rem;
+                  left: .1rem;
+                  font-size: .1rem;
+                }
+                }
+              }//head下的li的闭合DIV
+            }//head下的ul的闭合DIV
+          }//head的闭合DIV
+        }//header的闭合DIV
+.a_scroll{
+    margin-top: -.88rem;
+    .banner{
+      height: 100%;
+      .swiper-wrapper{          
+        .swiper-slide{
+           width: 100%;          
+          img{
+            width: 100%;           
+             }
+           }
+         }
+       }
+// 导航部分
+nav{
+  ul{
+    &:nth-child(1){
+      height: 1.32rem;
+      background: white;
+      @include flexbox();
+      li{
+        @include flex(1);
+        @include flexbox();
+        @include flex-direction(column);
+        @include align-items(center);
+        @include justify-content(center);
+        &:nth-child(1){
+          b{
+            @include flexbox();
+            font-size: .5rem;
+            color: #F96D9C;
+            display: block;
+          }
+          i{
+            font-size: .14rem;
+            display: block;
+            left: -.4rem;
+            top: .5rem;
+          }
+        }
+        &:nth-child(2){
+          b{
+            font-size: .5rem;
+            color: #FEBF30;
+            display: block;
+          }
+          i{
+            font-size: .14rem;
+            display: block;
+            left: -.4rem;
+            top: .5rem;
+          }
+        }
+        &:nth-child(3){
+          b{
+            font-size: .5rem;
+            color: #FF8669;
+            display: block;
+          }
+          i{
+            font-size: .14rem;
+            display: block;
+            left: -.4rem;
+            top: .5rem;
+          }
+        }
+        &:nth-child(4){
+          b{
+            font-size: .5rem;
+            color: #FF8669;
+            display: block;
+          }
+          i{
+            font-size: .14rem;
+            display: block;
+            left: -.4rem;
+            top: .5rem;
+          }
+        }
+      }
+    }
+    &:nth-child(2){
+      height: 1.32rem;
+      background: white;
+      @include flexbox();
+      li{
+        @include flex(1);
+        @include flexbox();
+        @include flex-direction(column);
+        @include align-items(center);
+        @include justify-content(center);
+        &:nth-child(1){
+          b{
+            font-size: .5rem;
+            color: #70C7EB;
+            display: block;
+          }
+          i{
+            font-size: .14rem;
+            display: block;
+            left: -.4rem;
+            top: .5rem;
+          }
+        }
+        &:nth-child(2){
+          b{
+            font-size: .5rem;
+            color: #FF656C;
+            display: block;
+          }
+          i{
+            font-size: .14rem;
+            display: block;
+            left: -.4rem;
+            top: .5rem;
+          }
+        }
+        &:nth-child(3){
+          b{
+            font-size: .5rem;
+            color: #F96D9C;
+            display: block;
+          }
+          i{
+            font-size: .14rem;
+            display: block;
+            left: -.4rem;
+            top: .5rem;
+          }
+        }
+        &:nth-child(4){
+          b{
+            font-size: .5rem;
+            color: #70E8CF;
+            display: block;
+          }
+          i{
+            font-size: .14rem;
+            display: block;
+            left: -.4rem;
+            top: .5rem;
+          }
+        }
+      }
+    }
+  }
+}
+aside{
+    height: .75rem;
+    background: white;
+      ul{
+        width: 100%;
+        @include flexbox();
+        @include box-sizing(border-box);
+        @include border(1px, #d9d9d9);
+        box-sizing: border-box;
+          li{
+            &:nth-child(1){
+              font-size: .24rem;
+              font-weight: 600;
+              color: red;
+              @include flex(1);
+              @include flexbox();
+              @include align-items(center);
+              @include justify-content(center);
+              line-height: .75rem;
+              }
+            &:nth-child(2){
+              @include flex(2);
+              @include flexbox();
+              @include align-items(center);
+              @include justify-content(center);
+              line-height: .75rem;
+            }
+          }
+        }
+      }
+section{
+    height: 100%;
+  img{
+    height: 100%;
+    width: 100%;
+  }
+}
+.a_time{
+  overflow: hidden;
+  height: 2.22rem;
+  background: white;
+    ul{
+      li{
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+          &:nth-child(1){
+            height: .42rem;
+            @include flexbox();
+            background: white;
+            p{
+              @include flex(1);
+              padding:0 18px 0 18px;
+              @include align-items(center);
+              @include justify-content(center);
+              img{
+                padding:0 3px 0 3px;
+              }
+            }
+          }
+          &:nth-child(2){
+            height: 1.81rem;
+            @include flexbox();
+            p{
+              @include flex(1);
+              @include flexbox();
+              @include flex-direction(column);
+              @include align-items(center);
+              @include justify-content(center);
+              @include box-sizing(border-box);
+              @include border(1px, #d9d9d9);
+              // position: relative;
+              img{
+                width: 100%;
+                display: block;
+                    }
+                   i{
+                    display: block;
+                    color: red;
+                    // position: absolute !important;
+                    }
+                  }
+                }
+              }//a_time下的ul下的li的闭合DIV
+            }//a_time下的ul的闭合DIV
+          }//a_time的闭合DIV
+        }//a-scroll的闭合DIV
+    }//m-home的闭合DIV

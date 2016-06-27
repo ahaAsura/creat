@@ -1,0 +1,55 @@
+.shop_car{
+  height: 100%;
+  background: #F5F5F5;
+  .shop_car_a{
+    ul{
+      @include flexbox;
+      background: white;
+      li{
+        height: .39rem;
+        line-height: .39rem;
+        text-align: center;
+        @include border( 0 0 1px 0, #d9d9d9);
+        &:nth-child(1){
+              @include flex(10);
+              font-size: .2rem;
+              @include justify-content(center);
+              @include align-items(center);
+        }
+        &:nth-child(2){
+              @include flex(1);
+              color: #ADB7BD;
+              @include justify-content(center);
+              @include align-items(center);
+        }
+      }
+    }
+  }//shop_car_a闭合
+  .shop_car_b{
+      ul{
+        text-align: center;
+        margin-top: 50%;
+        li{
+          margin-top: .3rem;
+          &:nth-child(1){
+            img{
+              height: .8rem;
+            }
+          }
+          &:nth-child(2){
+              font-size: .12rem;
+              color: #606060;
+          }
+          &:nth-child(3){
+            span{
+              color: #D7878C;
+              padding: .08rem .3rem .08rem .3rem;
+              @include box-sizing(border-box);
+              @include border(1px, #D7878C);
+              border-radius: .4rem;
+            }
+          }
+        }
+      }
+  }
+}

@@ -1,0 +1,14 @@
+<div class="m-index">
+    <div class="l-container">
+
+    </div><!-- l-container的闭合DIV -->
+<!-- 底部 -->
+<footer>
+  <ul>
+    <li class="active" action-type="switch.tabs" data-tag="home"><i class="ics yo-ico">&#xe614;</i><b>首页</b></li>
+    <li action-type="switch.tabs" data-tag="kind"><i class="yo-ico">&#xe657;</i><b>分类</b></li>
+    <li action-type="switch.tabs" data-tag="shopcar"><i class="yo-ico">&#xe610;</i><b>购物车</b></li>
+    <li action-type="switch.tabs" data-tag="my"><i class="yo-ico">&#xe735;</i><b>我的</b></li>
+  </ul>
+</footer>
+</div><!-- m-index的最后的DIV -->

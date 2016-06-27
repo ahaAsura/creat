@@ -1,0 +1,118 @@
+<div class="kind_h">
+	<p><input type="text" name="name" placeholder="搜索"></p>
+</div>
+<div class="kind_main">
+	<div class="kind_left">
+		<div spa-widget="scroll">
+			<ul>
+				<li class="active" action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>海外购</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>生活电器</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>厨房电器</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>品质厨房</span>
+				</li class="active_a">
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>生活家居</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>家纺</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>服装配饰</span>
+				</li>
+				<li action-type="switch.tabs"> 
+					<i class="active_a"></i>
+					<span>箱包配饰</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>美妆个护</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>食品饮料</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>3C数码</span>
+				</li>
+				<li action-type="switch.tabs">
+					<i class="active_a"></i>
+					<span>宠物用品</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="kind_right">
+		<div spa-widget="scroll">
+			<ul class="scroll_right">
+				<li class="abss">
+					<div class="kind_one kind_o">
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+					</div>
+					<div class="kind_one1 kind_o">
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+					</div>
+					<div class="kind_one2 kind_o">
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+					</div>
+					<div class="kind_one3 kind_o">
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+					</div>
+					<div class="kind_one4 kind_o">
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+					</div>
+					<div class="kind_one5 kind_o">
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+					</div>
+					<div class="kind_one6 kind_o">
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+					</div>
+					<div class="kind_one7 kind_o">
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+						<p><img src="/xiangmu/images/c6.jpg"><span>品质生活</span></p>
+					</div>
+				</li><!--第一个li的闭合-->
+				<li class="abss">222222222</li>
+				<li class="abss">333333</li>
+				<li class="abss">444444</li>
+				<li class="abss">555555</li>
+				<li class="abss">666666</li>
+				<li class="abss">777777</li>
+				<li class="abss">888888</li>
+				<li class="abss">999999</li>
+				<li class="abss">101010</li>
+				<li class="abss">11111111111</li>
+				<li class="abss">1212121212</li>
+			</ul>
+		</div>
+	</div>
+</div>

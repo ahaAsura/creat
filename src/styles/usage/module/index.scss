@@ -1,0 +1,42 @@
+//Index里只有Footer的DIV合其他DIV
+//大的容器
+.m-index{
+      height: 100%;
+      //弹性盒子属性
+      @include flexbox();
+      //弹性盒子弹性方向(向下)
+      @include flex-direction(column);
+  .l-container{
+      //占有全部部分
+      @include flex(1);
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }//l-container
+  footer{
+      height: .7rem;
+      background: white;
+      ul{
+        @include flexbox();
+        width: 100%;
+        height: 100%;
+        li{
+          @include flex(1);
+          @include flexbox();
+          @include flex-direction(column);
+          @include align-items(center);
+          @include justify-content(center);
+          &.active{
+            color:#DC0F50;
+          }//首页LOGO上颜色
+          i{
+            font-size: .34rem;
+          }
+          b{
+            font-size: .1rem;
+            font-weight: normal;
+            }
+      }//footer下的li的闭合DIV
+    }//footer下的Ul的闭合DIV
+  }//footer的闭合DIV
+}//m-index的闭合DIV

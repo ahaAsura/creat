@@ -1,0 +1,62 @@
+<div class="my_body">
+	<div class="my_header">
+		<ul>
+			<li>设置</li>
+			<li>我的</li>
+		</ul>
+	</div>
+		<div spa-widget="scroll">
+			<div class="my_scroll">
+					<div class="my_login">
+							<ul>
+								<li><img src="/xiangmu/images/-22_r3_c4.jpg"></li>
+								<li>登陆/注册</li>
+							</ul>
+					</div>
+					<ul class="list">
+						<li>
+								<p class="yo-ico">&#xe605;<span>我的订单</span></p>
+								<p>查看全部已购商品<span>&gt;</span></p>
+						</li>
+							<li>
+									<p><span class="yo-ico">&#xe69e;</span><i>待付款</i></p>
+									<p><span class="yo-ico">&#xe612;</span><i>待发货</i></p>
+									<p><span class="yo-ico">&#xe624;</span><i>待收货</i></p>
+									<p><span class="yo-ico">&#xe64b;</span><i>待评价</i></p>
+									<p><span class="yo-ico">&#xecf8;</span><i>退款/售后</i></p>
+							</li>
+							<li></li>
+							<li>
+									<p><span class="yo-ico">&#xe611;</span><i>我的优惠劵</i></p>
+									<p>&gt;</p>
+							</li>
+							<li>
+								<p><span class="yo-ico">&#xe8ed;</span><i>微公社</i></p>
+								<p>&gt;</p>
+							</li>
+							<li>
+								<p><span class="yo-ico">&#xe61c;</span><i>我的收藏</i></p>
+								<p>&gt;</p>
+							</li>
+							<li>
+								<p><span class="yo-ico">&#xe629;</span><i>我的浏览史</i></p>
+								<p>&gt;</p>
+							</li>
+							<li></li>
+							<li>
+								<p><span class="yo-ico">&#xe728;</span><i>推荐好友得福利</i></p>
+								<p>&gt;</p>
+							</li>
+							<li></li>
+
+							<li>
+								<p><span class="yo-ico">&#x3569;</span><i>客服电话</i></p>
+								<p>&gt;</p>
+							</li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+				</div>
+			</div>
+		</div>

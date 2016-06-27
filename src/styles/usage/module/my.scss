@@ -1,0 +1,297 @@
+.my_body{
+  @include flexbox();
+  @include flex-direction(column);
+  background:#D6ADA7;
+  height: 100%;
+  > *{
+    width: 100%;
+  }
+    .my_header{
+        ul{
+          height: .39rem;
+          background: white;
+          @include flexbox;
+          @include box-sizing(border-box);
+          @include border(  1px , #d9d9d9);
+            li{
+              @include flex(1);
+              @include flex-direction(column);
+              @include align-items(center);
+              @include justify-content(center);
+              text-align: center;
+              line-height: .39rem;
+                &:nth-child(1){
+                    @include flex(1);
+                    padding-left: .08rem;
+                    color: #252525;
+                }
+                &:nth-child(2){
+                    @include flex(10);
+                    font-size: .2rem;
+                    color: #252525;
+                    padding-right: .42rem;
+                }
+            }
+        }
+    }
+    .my_scroll{
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+        .my_login{
+            height: 1.32rem;
+            ul{
+              text-align: center;
+              margin-top: .33rem;
+              li{
+                &:nth-child(1){
+                  img{
+                    height: .52rem;
+                  }
+                }
+                &:nth-child(2){
+                  font-size: .16rem;
+                  color: white;
+                }
+              }
+            }
+        }//my_login的闭合标签
+        .list{
+          li{
+            @include box-sizing(border-box);
+            @include border( 0 0 1px 0, #d9d9d9);
+            &:nth-child(1){
+              @include flexbox;
+              @include box-sizing(border-box);
+              @include border( 1px 0 0 0, #d9d9d9);
+              p{
+                line-height: .46rem;
+                @include flex(1);
+                height: .46rem;
+                background: white;
+                &:nth-child(1){
+                  font-size: .2rem;
+                  padding-left: .09rem;
+                  color: #FDB935;
+                  span{
+                    font-size: .14rem;
+                    padding-left: .1rem;
+                    color: black;
+                  }
+                }
+                &:nth-child(2){
+                  color: #999999;
+                  padding-left: 1.1rem;
+                  span{
+                    font-size: .18rem;
+                  }
+                }
+              }
+            }//list的第1个li的闭合标签
+            &:nth-child(2){
+              height: .73rem;
+              background: white;
+              @include flexbox;
+                p{
+                  @include flexbox;
+                  @include flex(1);
+                  @include flex-direction(column);
+                  height: 100%;
+                  @include justify-content(center);
+                  @include align-items(center);
+                  span{
+                    font-size: .32rem;
+                    color: #6A6A6A;
+                  }
+                  i{
+                    font-size: .14rem;
+                    color: #6A6A6A;
+                  }
+                }
+            }//list的第2个li的闭合标签
+            &:nth-child(3){
+              height: .12rem;
+              background: white;
+            }//list的第3个li的闭合标签
+            &:nth-child(4){
+              height: .46rem;
+              background: white;
+              @include flexbox;
+              p{
+                &:nth-child(1){
+                  @include flex(10);
+                  span{
+                    line-height: .46rem;
+                    font-size: .3rem;
+                    padding-left: .08rem;
+                    color: #FC6651;
+                  }
+                  i{
+                    padding-left: .08rem;
+                  }
+                }
+                &:nth-child(2){
+                  line-height: .46rem;
+                  @include flex(1);
+                  font-size: .2rem;
+                }
+              }
+            }//list的第4个li的闭合标签
+            &:nth-child(5){
+              height: .46rem;
+              background: white;
+              @include flexbox;
+              p{
+                &:nth-child(1){
+                  @include flex(10);
+                  span{
+                    line-height: .46rem;
+                    font-size: .3rem;
+                    padding-left: .08rem;
+                    color:#FF7979;
+                  }
+                  i{
+                    padding-left: .08rem;
+                  }
+                }
+                &:nth-child(2){
+                  line-height: .46rem;
+                  @include flex(1);
+                  font-size: .2rem;
+                }
+              }
+            }//list的第5个li的闭合标签
+            &:nth-child(6){
+              height: .46rem;
+              background: white;
+              @include flexbox;
+              p{
+                &:nth-child(1){
+                  @include flex(10);
+                  span{
+                    line-height: .46rem;
+                    font-size: .3rem;
+                    padding-left: .08rem;
+                    color: #EB8ABE;
+                  }
+                  i{
+                    padding-left: .08rem;
+                  }
+                }
+                &:nth-child(2){
+                  line-height: .46rem;
+                  @include flex(1);
+                  font-size: .2rem;
+                }
+              }
+            }//list的第6个li的闭合标签
+            &:nth-child(7){
+              height: .46rem;
+              background: white;
+              @include flexbox;
+              p{
+                &:nth-child(1){
+                  @include flex(10);
+                  span{
+                    line-height: .46rem;
+                    font-size: .3rem;
+                    padding-left: .08rem;
+                    color: #A27ABC;
+                  }
+                  i{
+                    padding-left: .08rem;
+                  }
+                }
+                &:nth-child(2){
+                  line-height: .46rem;
+                  @include flex(1);
+                  font-size: .2rem;
+                }
+              }
+            }//list的第7个li的闭合标签
+            &:nth-child(8){
+              height: .12rem;
+              background: white;
+            }//list的第8个li的闭合标签
+            &:nth-child(9){
+              height: .46rem;
+              background: white;
+              @include flexbox;
+              p{
+                &:nth-child(1){
+                  @include flex(10);
+                  span{
+                    line-height: .46rem;
+                    font-size: .3rem;
+                    padding-left: .08rem;
+                    color: #A27ABC;
+                  }
+                  i{
+                    padding-left: .08rem;
+                  }
+                }
+                &:nth-child(2){
+                  line-height: .46rem;
+                  @include flex(1);
+                  font-size: .2rem;
+                }
+              }
+            }//list的第9个li的闭合标签
+            &:nth-child(10){
+              height: .12rem;
+              background: white;
+            }//list的第10个li的闭合标签
+            &:nth-child(11){
+              height: .46rem;
+              background: white;
+              @include flexbox;
+              p{
+                &:nth-child(1){
+                  @include flex(10);
+                  span{
+                    line-height: .46rem;
+                    font-size: .3rem;
+                    padding-left: .08rem;
+                    color: #A27ABC;
+                  }
+                  i{
+                    padding-left: .08rem;
+                  }
+                }
+                &:nth-child(2){
+                  line-height: .46rem;
+                  @include flex(1);
+                  font-size: .2rem;
+                }
+              }
+            }//list的第11个li的闭合标签
+            &:nth-child(12){
+              height: .46rem;
+              background: white;
+              @include border( 0 );
+            }//list的第3个li的闭合标签
+            &:nth-child(13){
+              height: .46rem;
+              background: white;
+              @include border( 0 );
+            }//list的第3个li的闭合标签
+            &:nth-child(14){
+              height: .46rem;
+              background: white;
+              @include border( 0 );
+
+            }//list的第3个li的闭合标签
+            &:nth-child(15){
+              height: .12rem;
+              background: white;
+              @include border( 0 );
+            }//list的第3个li的闭合标签
+          }
+        }
+    }
+}
+// @include box-sizing(border-box);
+// @include border(1px, #d9d9d9);
+// @include justify-content(center);
+// @include align-items(center);
+// @include flex-direction(column);
